@@ -1,0 +1,23 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.com.drogariapopular24h.app",
+            "sha256_cert_fingerprints": [
+                "BD:ED:82:82:A6:9A:89:DC:61:44:BE:1A:A9:1E:6F:F3:95:F6:6C:91:AE:A0:A6:13:A5:C6:4F:F9:08:EF:DE:16"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "check_validation"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "br.com.drogariapopular24h.app"
+        }
+    }
+]
